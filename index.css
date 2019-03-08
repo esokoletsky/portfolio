@@ -30,9 +30,17 @@ header p {
     float: left;
 }
 
+.blue a{
+    color: #397B99;
+}
+
 nav {
     color: #397B99;
     overflow: auto;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 nav ul {
