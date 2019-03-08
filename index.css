@@ -61,8 +61,7 @@ nav li {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    border: white solid 1px;
+    margin-bottom: 50px;
     border-radius: 5px;
     width: 75%;
 }
@@ -74,7 +73,7 @@ nav li {
 .project p {
     width: 80%;
     text-align: center;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 .project a {
     margin-right: 8px;
