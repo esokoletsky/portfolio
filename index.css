@@ -32,6 +32,7 @@ header p {
 
 nav ul li a{
     color: #397B99;
+    text-decoration: none;
 }
 
 nav {
@@ -40,7 +41,7 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
+    
 }
 
 nav ul {
