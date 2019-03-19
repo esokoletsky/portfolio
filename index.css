@@ -5,7 +5,7 @@ body {
     background-color: #EFEEEB;
     color: black;
     font-size: 19px;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin: 0px;
     padding: 0px;
     position: relative;
@@ -113,6 +113,7 @@ nav li.name {
     float:left;
     color:#F2954D;
     font-size:28px;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 footer {
@@ -138,6 +139,10 @@ footer {
     border-bottom: 1px solid white;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 65px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Mono', monospace;
 }
 @media only screen and (max-width: 1024px) {
     .main-img {
