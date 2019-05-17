@@ -1,167 +1,170 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 body {
-    background-color: #EFEEEB;
-    color: black;
-    font-size: 19px;
-    font-family: 'Roboto Slab', serif;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-    min-height: 100%;
+  background-color: #efeeeb;
+  color: black;
+  font-size: 19px;
+  font-family: "Roboto Slab", serif;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 100%;
 }
 body::after {
-    content: '';
-    display: block;
-    height: 50px; /* Set same as footer's height */
-  }
+  content: "";
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
 
 a {
-    color: #EA9652;
+  color: #ea9652;
 }
 .main-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
 }
 
 .main-img img {
-    width: 100%;
-    max-width: 700px;
+  width: 100%;
+  max-width: 700px;
 }
 
 .container {
-    width: 80%;
+  width: 80%;
 
-    margin: 0px auto;
+  margin: 0px auto;
 }
 
 header p {
-    float: left;
+  float: left;
 }
 
-nav ul li a{
-    color: #397B99;
-    text-decoration: none;
+nav ul li a {
+  color: #397b99;
+  text-decoration: none;
 }
 
 nav {
-    color: #397B99;
-    overflow: auto;
+  color: #397b99;
+  overflow: auto;
 }
 
-
 nav ul {
-    text-align: right;
-    list-style: none;
-    margin: 0;
+  text-align: right;
+  list-style: none;
+  margin: 0;
 }
 
 nav li {
-    display: inline-block;
-    margin: 7px 12px;
-    font-size: 20px;
+  display: inline-block;
+  margin: 7px 12px;
+  font-size: 20px;
 }
 
 .projects {
-    margin-top: 55px;
+  margin-top: 55px;
 }
 
 .project {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    border-radius: 5px;
-    width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  width: 75%;
 }
-.project img{
-    width: 90%;
-    padding: 12px;
+.project img {
+  width: 90%;
+  padding: 12px;
 }
 
 .project p {
-    width: 80%;
-    text-align: center;
-    margin: 10px auto;
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
 }
 .project a {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .technologies {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .technologies h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .technologies ul {
-    text-align: center;
+  text-align: center;
 }
 
 .technologies li {
-    display: inline-block;
-    margin-right: 8px;
+  display: inline-block;
+  margin-right: 8px;
 }
 
 nav li.name {
-    float:left;
-    color:#F2954D;
-    font-size:28px;
-    font-family: 'IBM Plex Mono', monospace;
+  float: left;
+  color: #f2954d;
+  font-size: 28px;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 footer {
-    background-color: #EA9652;
-    color: white;
-    padding: 1px;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
+  background-color: #ea9652;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
 }
 
 .about-me {
-    width: 65%;
+  width: 65%;
 }
 
 .about-me {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    font-family: 'Roboto Slab', serif;
-    margin-bottom: 65px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 65px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'IBM Plex Mono', monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Mono", monospace;
 }
 @media only screen and (max-width: 1024px) {
-    .main-img {
-        width: 85%;
-    }
+  .main-img {
+    width: 85%;
   }
+}
 
-
-  @media only screen and (max-width: 635px) {
-    nav ul {
-        width: 100%;
-        text-align: center;
-        padding-left: 0px;
-    }
+@media only screen and (max-width: 635px) {
+  nav ul {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
   }
-
-  @media only screen and (max-width: 635px) {
-    .name {
-        width: 100%;
-        text-align: center;
-    }
+  .name {
+    width: 100%;
+    text-align: center;
   }
+  .container {
+    width: 100%;
+  }
+}
